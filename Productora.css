@@ -28,3 +28,19 @@ nav ul li a{
     color: white;
     text-decoration: none;
 }
+
+#biografia{
+    display: flex;
+    align-items: flex-start; /* evita que las imagenes dentro del contenedor se estiren */
+}
+
+
+#biografia img{
+    width: 300px;
+}
+
+#biografia p{
+    width: 1000px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
