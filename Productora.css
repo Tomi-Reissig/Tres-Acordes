@@ -37,8 +37,8 @@ nav ul li a{
 }
 
 #biografia{
-
     align-items: flex-start; /* evita que las imagenes dentro del contenedor se estiren */
+    margin-top: 50px;
 }
 
 
@@ -50,7 +50,6 @@ nav ul li a{
 }
 
 #biografia p{
-    margin-top: 75px;
     margin-left: 20px;
     margin-right: 40px;
     text-align: justify;
