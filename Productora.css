@@ -16,10 +16,12 @@ nav{
 }
 
 nav ul {
+    height: 40px;
     display: flex;
     list-style-type: none;
     justify-content: center;
     gap: 400px;               /* define el espacio entre elementos */
+    align-items: center;
     padding: 0;
     margin: 0;
 }
