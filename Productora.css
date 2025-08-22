@@ -47,6 +47,7 @@ nav ul li a{
     float: left;       /* hace que el texto rodee la imagen */
     border: 1px solid white;
     margin: 0 20px 8px 5px;
+    border-radius: 10px;
 }
 
 #biografia h2{
