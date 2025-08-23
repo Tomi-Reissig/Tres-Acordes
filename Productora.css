@@ -61,6 +61,15 @@ nav ul li a{
     font-size: 18px;
 }
 
+#fila1{
+    display: flex;
+}
+
+#fila2{
+    display: flex;
+}
+
+
 #galeria img{
     width: 400px;
 }
