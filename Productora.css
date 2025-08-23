@@ -60,3 +60,7 @@ nav ul li a{
     text-align: justify;
     font-size: 18px;
 }
+
+#galeria img{
+    width: 400px;
+}
