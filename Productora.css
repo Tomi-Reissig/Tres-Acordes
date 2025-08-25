@@ -60,3 +60,25 @@ nav ul li a{
     text-align: justify;
     font-size: 18px;
 }
+
+#fila1{
+    display: flex;
+}
+
+#fila2{
+    display: flex;
+}
+
+
+#galeria img{
+    width: 400px;
+}
+
+#galeria .imagen{
+    width: 450px;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+}
