@@ -1,34 +1,34 @@
 <!DOCTYPE html>
-<html lang="es_LA">
+<html lang="es">
 <head>
     <title>Contacto</title>
 </head>
 <body>
     <h1>¿Que opinas?</h1> 
-    <form action="#" method="post">
+    <form action="#" method="post" class="formulario-contacto">
         <label for="nombre">Nombre:</label>
-        <input type="text" id="name" name="nombre" required><br/><br/>
+        <input type="text" id="name" name="nombre" class="campo" required><br><br>
 
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br/><br/>
+        <input type="email" id="email" name="email" class="campo" required><br><br>
 
         <label for="telefono">Teléfono:</label>
-        <input type="tel" id="telefono" name="telefono">
-        <span style="opacity:0.5">(opcional)</span><br/><br/>
+        <input type="tel" id="telefono" name="telefono" class="campo">
+        <span style="opacity:0.5">(opcional)</span><br><br>
 
+        <label for="mensaje">¿Que quieres decir?:</label><br>
+        <textarea id="message" name="mensaje" rows="4" cols="30" class="campo"></textarea><br><br>
 
-        <label for="mensaje">¿Que quieres decir?:</label><br/>
-        <textarea id="message" name="mensaje" rows="4" cols="30"></textarea><br/><br/>
-
-        <input type="submit" value="Enviar">
-        <input type="reset" value="Borrar todo">
-
+        <input type="submit" value="Enviar" class="boton">
+        <input type="reset" value="Borrar todo" class="boton">
     </form>
 
-    <h2> Sigueme en mis diferentes paginas </h2>
-    <a href="https://www.instagram.com/produccionestrukini/?hl=es"> Instagram </a><br/>
-    <a href="https://x.com/_taxideral?lang=es"> Twitter </a><br/>
-    <a href="https://www.facebook.com/produccionestrukini/?locale=es_LA"> Facebook </a><br/>
-    <a href="https://www.youtube.com/@produccionestrukini"> YouTube </a><br/>
+    <h2>Sigueme en mis diferentes paginas</h2>
+    <div class="redes-sociales">
+        <a href="https://www.instagram.com/produccionestrukini/?hl=es"> Instagram </a><br>
+        <a href="https://x.com/_taxideral?lang=es"> Twitter </a><br>
+        <a href="https://www.facebook.com/produccionestrukini/?locale=es_LA"> Facebook </a><br>
+        <a href="https://www.youtube.com/@produccionestrukini"> YouTube </a><br>
+    </div>
 </body>
 </html>
