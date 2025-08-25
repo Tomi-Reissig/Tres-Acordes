@@ -47,10 +47,38 @@ nav ul li a{
     float: left;       /* hace que el texto rodee la imagen */
     border: 1px solid white;
     margin: 0 20px 8px 5px;
+    border-radius: 10px;
+}
+
+#biografia h2{
+    font-size: 40px;
 }
 
 #biografia p{
     margin-left: 20px;
     margin-right: 40px;
     text-align: justify;
+    font-size: 18px;
+}
+
+#fila1{
+    display: flex;
+}
+
+#fila2{
+    display: flex;
+}
+
+
+#galeria img{
+    width: 400px;
+}
+
+#galeria .imagen{
+    width: 450px;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
 }
