@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  color: white;
+  background-color: #333;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+/* Botones principales y submenús */
+.menu-label,
+.submenu-label,
+.capitulo-label {
+  font-size: 16px;
+  cursor: pointer;
+  padding: 8px 10px;
+  display: block;
+  margin: 5px 0;
+  border-radius: 5px;
+  color: white;
+
+  user-select: none;
+}
+
+.menu-label {
+  background: #333;
+  font-size: 18px;
+}
+
+.submenu-label {
+  background: #666;
+  color: #333;
+  background-color: #fffb00;
+}
+
+.capitulo-label {
+  background: #999;
+  background-color: #333;
+}
+
+/* Listas ocultas */
+.menu,
+.submenu,
+.subsubmenu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease, opacity 0.4s ease;
+  border-radius: 5px;
+}
+
+/* Estilos de submenús */
+.submenu {
+  background: #fffb00;
+  color: #333;
+  margin-left: 15px;
+}
+
+.subsubmenu {
+  background: #333;
+  margin-left: 30px;
+  padding: 10px;
+  text-align: center;
+}
+
+/* List items */
+.menu li,
+.submenu li,
+.subsubmenu li {
+  padding: 6px 12px;
+  border-bottom: 1px solid #333;
+}
+
+ul{
+  color: #333;
+}
+
+.menu li:last-child,
+.submenu li:last-child,
+.subsubmenu li:last-child {
+  border-bottom: none;
+}
+
+/* Mostrar listas al marcar el checkbox */
+input[type="checkbox"]:checked ~ ul {
+  max-height: 2000px;
+  opacity: 1;
+}
+
+/* iframe centrado */
+iframe {
+  display: block;
+  margin: 10px auto;
+  border: 4px solid #fffb00;
+  border-radius: 8px;
+  max-width: 100%;
+}
+
+/* Texto centrado */
+h4 {
+  text-align: center;
+  margin: 10px 0;
+  color: white;
+}
