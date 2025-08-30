@@ -22,3 +22,10 @@ header{
     height: 80px;
     border-radius: 5%;
 }
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: yellow;
+    display: grid;
+}
