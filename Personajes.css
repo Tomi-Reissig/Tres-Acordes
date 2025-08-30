@@ -3,3 +3,10 @@ body{
     margin: 0%;
     background-color: yellow;
 }
+
+header{
+    background-color: black;
+    color: yellow;
+    padding: 5px 5px;
+    text-align: center;
+    }   
