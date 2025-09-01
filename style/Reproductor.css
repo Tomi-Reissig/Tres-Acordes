@@ -9,7 +9,7 @@ input[type="checkbox"] {
   display: none;
 }
 
-/* Botones principales y submenús */
+
 .menu-label,
 .submenu-label,
 .capitulo-label {
@@ -40,7 +40,6 @@ input[type="checkbox"] {
   background-color: #333;
 }
 
-/* Listas ocultas */
 .menu,
 .submenu,
 .subsubmenu {
@@ -54,7 +53,6 @@ input[type="checkbox"] {
   border-radius: 5px;
 }
 
-/* Estilos de submenús */
 .submenu {
   background: #fffb00;
   color: #333;
@@ -68,7 +66,6 @@ input[type="checkbox"] {
   text-align: center;
 }
 
-/* List items */
 .menu li,
 .submenu li,
 .subsubmenu li {
@@ -86,13 +83,11 @@ ul{
   border-bottom: none;
 }
 
-/* Mostrar listas al marcar el checkbox */
 input[type="checkbox"]:checked ~ ul {
   max-height: 2000px;
   opacity: 1;
 }
 
-/* iframe centrado */
 iframe {
   display: block;
   margin: 10px auto;
@@ -101,7 +96,6 @@ iframe {
   max-width: 100%;
 }
 
-/* Texto centrado */
 h4 {
   text-align: center;
   margin: 10px 0;
