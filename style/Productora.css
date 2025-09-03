@@ -64,8 +64,9 @@ nav ul li a{
 }
 
 .obra{
-    background-color: #fdff50;
+    background-color: black; 
     border-radius: 15px;
+    border: 2px solid #fdff50;
     margin: 20px;
     padding: 15px;
     display: flex;
@@ -78,6 +79,9 @@ nav ul li a{
 
 .obra p{
     color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fdff50;
+    font-size: 20px;
 }
 
 .obra div{
@@ -99,7 +103,8 @@ nav ul li a{
 
 #galeria .imagen{
     width: 450px;
-    background-color: #fdff50;
+    background-color: black;
+    border: 2px solid #fdff50;
     text-align: center;
     padding: 10px;
     margin: 20px;
@@ -108,4 +113,7 @@ nav ul li a{
 
 #galeria .imagen p{
     color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fdff50;
+    font-size: 20px;
 }
