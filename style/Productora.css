@@ -61,6 +61,12 @@ nav ul li a{
     font-size: 18px;
 }
 
+.obra{
+    background-color:black;
+    border-radius: 15px;
+    
+}
+
 #fila1{
     display: flex;
 }
