@@ -47,6 +47,15 @@ nav ul li a{
     text-decoration: none;
 }
 
+h2{
+    margin-left: 70px;
+    font-size: 40px;
+}
+
+#obras h2, #galeria h2{
+    text-align: center;
+}
+
 #biografia{
     margin-top: 50px;
 }
@@ -58,10 +67,6 @@ nav ul li a{
     border: 1px solid #fdff50 ;
     margin: 0 20px 8px 5px;
     border-radius: 10px;
-}
-
-#biografia h2{
-    font-size: 40px;
 }
 
 #biografia p{
