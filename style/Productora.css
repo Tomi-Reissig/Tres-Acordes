@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 *{
     color: white;
-    font-family: "Playfair Display", serif;
+    /* font-family: "Playfair Display", serif; */
+    font-family: "Lato", sans-serif;
 }
 
 body{
@@ -11,6 +12,10 @@ body{
 
 header{
     text-align: center;
+}
+
+h1, h2, h3{
+    font-family: "Playfair Display", serif;
 }
 
 nav{
