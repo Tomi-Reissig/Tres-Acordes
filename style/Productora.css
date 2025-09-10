@@ -9,6 +9,7 @@
 
 body{
     background-color: #222;
+    margin: 0;
 }
 
 header {
@@ -51,6 +52,7 @@ a{
     left: 50%; /* hace que el borde izquierdo del contenedor "titulo" se mueva hacia la mitad del contenedor header*/
     transform: translateX(-50%); /* hace que la mitad del contenedor "titulo" se mueva hacia la mitad del contenedor "header" */
     text-align: center;
+    margin-top: 10px;
 }
 
 h1, h2, h3{
@@ -111,6 +113,7 @@ h2{
 
 #biografia{
     margin-top: 50px;
+    margin-left: 10px;
 }
 
 
