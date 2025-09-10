@@ -90,8 +90,8 @@ nav ul a li{
 }
 
 nav ul a li:hover{
-    background-color: black;
-    border: black;
+    background-color: #222;
+    border: #222;
 }
 
 nav ul a li:hover{
