@@ -2,15 +2,52 @@
 
 *{
     color: white;
-    /* font-family: "Playfair Display", serif; */
-    font-family: "Lato", sans-serif;
+    font-family: "Playfair Display", serif;
+    /* font-family: "Lato", sans-serif; */
 }
 
 body{
     background-color: #222;
 }
 
-header{
+header {
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start;
+    position: relative; /* hace que titulo con position absolute se base en las dimensiones del header */
+    padding: 10px;
+}
+
+.logo {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    background-color: #fffb00;
+    padding: 5px 5px;
+    border-radius: 100px;
+    gap: 10px;
+    width: 200px;
+}
+
+.logo img{
+    width: 50px;   
+    height: 50px;
+    border-radius: 100px; 
+}
+
+.logo span{
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+.titulo {
+    position: absolute; /* hace que los demas elementos ya no lo tengan en cuenta */
+    left: 50%; /* hace que el borde izquierdo del contenedor "titulo" se mueva hacia la mitad del contenedor header*/
+    transform: translateX(-50%); /* hace que la mitad del contenedor "titulo" se mueva hacia la mitad del contenedor "header" */
     text-align: center;
 }
 
@@ -24,6 +61,7 @@ nav{
     border-bottom: 3px solid #fdff50;
     border-top: 3px solid #fdff50;
     text-align: center;
+    margin-top: 30px;
 }
 
 nav ul {
@@ -31,14 +69,13 @@ nav ul {
     display: flex;
     list-style-type: none;
     justify-content: center;
-    gap: 400px;               /* define el espacio entre los elementos */
+    gap: 400px; /* define el espacio entre los elementos */
     align-items: center;
     padding: 0;
     margin: 0;
 }
 
-nav ul li{
-    text-decoration: none;
+nav ul a li{
     display: inline-block;
     border: 2px solid #fdff50;
     border-radius: 10px;
@@ -47,16 +84,17 @@ nav ul li{
     background-color: #fdff50;
 }
 
-nav ul li a{
+nav ul a li{
     color: black;
     text-decoration: none;
 }
 
-nav ul li:hover{
+nav ul a li:hover{
     background-color: black;
     border: black;
 }
-nav ul li:hover a{
+
+nav ul a li:hover{
     color: white;
 }
 
@@ -76,7 +114,7 @@ h2{
 
 #biografia img{
     width: 300px;
-    float: left;       /* hace que el texto rodee la imagen */
+    float: left; /* hace que el texto rodee la imagen */
     border: 1px solid #fdff50 ;
     margin: 0 20px 8px 5px;
     border-radius: 10px;
