@@ -191,3 +191,55 @@ h2{
 }
 
 
+footer {
+    background-color: #111;
+    color: #fff;
+    padding: 15px 15px 15px;
+    font-size: 14.4px;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /*definir el número y el ancho de las columnas en un diseño de cuadrícula*/
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+    font-size: 19.2px;
+    color: #fffb00;
+}
+
+.footer-section p, .footer-section a {
+    color: #bbb;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    color: #fffb00;
+}
+
+/* Redes sociales */
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a i{
+    font-size: 24px;
+    color: #fffb00;
+    transition: color 0.3s;
+}
+
+.social-icons a i:hover {
+    color: #c19a00;
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #333;
+    padding-top: 15px;
+    font-size: 12.8px;
+    color: #777;
+}
