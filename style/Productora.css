@@ -200,10 +200,6 @@ h2{
     padding: 20px;
 }
 
-#imagenes h2{
-    display: grid;
-}
-
 #imagenes .imagen {
     display: flex;
     flex-direction: column; /* posiciona la imagen arriba y el texto abajo */
@@ -212,8 +208,13 @@ h2{
     border: 2px solid #fffb00;
     border-radius: 15px;
     padding: 10px;
-    transition: transform 0.3s, box-shadow 0.3s;
+    transition: transform 0.3s, box-shadow 0.3s; /* Dice que cuando se cambien esas propiedades tarde 0.3 segundos en completarse la accion */
     min-height: 325px; /* establece una altura mínima para todas los recuadros */
+}
+
+#imagenes .imagen:hover {
+  transform: scale(1.03); /* Hace que el cuadro se agrande un %3 más */
+  box-shadow: 0px 6px 20px rgba(0,0,0,1); /* Le da sombra al recuadro */
 }
 
 #imagenes .imagen{
