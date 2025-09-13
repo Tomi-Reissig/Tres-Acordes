@@ -3,7 +3,13 @@ body{
     margin: 0%;
     background-color: yellow;
 }
-
+h1,h2{
+    text-align: center  ;
+}
+h3{
+    position: relative;
+    display: block;
+}
 header{
     background-color: black;
     color: yellow;
