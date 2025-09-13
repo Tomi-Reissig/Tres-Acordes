@@ -150,3 +150,10 @@ textarea.campo {
   background-color: #c19a00;
   color: #fff;
 }
+
+footer {
+  background-color: #111;
+  padding: 40px 20px;
+  text-align: center;
+  border-top: 3px solid #fffb00;
+}
