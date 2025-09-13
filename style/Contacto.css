@@ -157,3 +157,9 @@ footer {
   text-align: center;
   border-top: 3px solid #fffb00;
 }
+
+footer h2 {
+  color: #fffb00;
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
