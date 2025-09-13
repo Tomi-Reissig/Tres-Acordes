@@ -145,3 +145,8 @@ textarea.campo {
   margin-right: 10px;
   transition: 0.3s;
 }
+
+.boton:hover {
+  background-color: #c19a00;
+  color: #fff;
+}
