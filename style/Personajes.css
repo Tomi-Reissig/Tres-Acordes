@@ -35,3 +35,18 @@ footer{
     color: yellow;
     display: grid;
 }
+.circulo_Jaique{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border:  5px solid black;
+    transition: transform 0.3s ease;
+}
+.circulo_Jaique:hover{
+    transform: scale(1.3);
+}
+#Jaique{
+    display:inline-flex;
+    margin-right: 15px;
+}
