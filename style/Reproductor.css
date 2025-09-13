@@ -61,6 +61,11 @@ transition:background .3s;
 nav ul li a:hover{background:var(--accent-dark);color:#000}
 
 
+nav ul li a img {
+    width: 30px; 
+    height: 30px; 
+    object-fit: contain;
+} 
 h2{margin-top:.5rem;font-size:1.3rem;margin-bottom:.8rem;}
 
 
