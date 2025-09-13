@@ -183,3 +183,8 @@ footer h2 {
   gap: 25px;
   flex-wrap: wrap;
 }
+
+.redes-sociales a:hover {
+  background-color: #c19a00;
+  color: #fff;
+}
