@@ -78,3 +78,28 @@
     nav ul li a:hover {
       color: #c19a00;
     }
+
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+  margin: 40px 0;
+  color: #fffb00;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+}
+
+h2 {
+  text-align: center;
+  margin: 30px 0;
+  color: #fffb00;
+  font-size: 2em;
+}
+
+.formulario-contacto {
+  max-width: 600px;
+  margin: 0 auto 60px auto;
+  padding: 30px;
+  background-color: #333;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.6);
+  color: #fff;
+}
