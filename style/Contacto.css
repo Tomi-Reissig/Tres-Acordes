@@ -110,3 +110,14 @@ h2 {
   margin-bottom: 10px;
   color: #fffb00;
 }
+
+.campo {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-size: 1em;
+  background-color: #1d1d1d;
+  color: #fff;
+}
