@@ -1,7 +1,9 @@
 body{
     height: 100%;
-    margin: 0%;
     background-color:#FBFF00;
+    margin: 40px;
+    padding: 30px; 
+    border: 5px solid black; 
 }
 h1,h2{
     text-align: center  ;
