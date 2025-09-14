@@ -65,3 +65,18 @@ footer{
     display:inline-flex;
     margin-right: 15px;
 }
+.circulo_Adriel{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border:  5px solid black;
+    transition: transform 0.3s ease;
+}
+.circulo_Adriel:hover{
+    transform: scale(1.3);
+}
+#Adriel{
+    display:inline-flex;
+    margin-right: 15px;
+}
