@@ -5,6 +5,36 @@ body{
     padding: 30px; 
     border: 5px solid black; 
 }
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu .logo {
+    color: #FBFF00;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #FBFF00;
+    font-weight: 500;
+    padding: 5px 10px;
+}
+
+.nav-links li a:hover {
+    background-color: #fff;
+    color: #222;
+    border-radius: 5px;
+}
 h1,h2{
     text-align: center  ;
 }
