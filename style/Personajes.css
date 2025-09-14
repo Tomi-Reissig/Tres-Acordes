@@ -195,3 +195,20 @@ footer {
 .footer-section a:hover {
   text-decoration: underline;
 }
+.social-icons a {
+  color: yellow;
+  font-size: 24px;
+  margin-right: 15px;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: white;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 15px;
+  color: #ccc;
+  font-size: 14px;
+}
