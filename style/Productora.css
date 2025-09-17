@@ -6,7 +6,7 @@
     --btn-bg: #222;
     --btn-color: #fdff50;
     --btn-color2: black;
-
+    scroll-behavior: smooth; /* Baja lentamente los botones del nav */
 }
 
 body{
@@ -17,7 +17,6 @@ body{
 header {
     display: flex;
     align-items: center; 
-    justify-content: flex-start;
     position: relative;
     padding: 10px;
     margin-left: 10px;
