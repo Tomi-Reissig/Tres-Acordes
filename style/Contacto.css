@@ -227,3 +227,9 @@ footer .redes-sociales a:hover {
   box-shadow: 0 0 15px #fffb00;
   transform: scale(1.03);
 }
+
+nav ul li a:active,
+footer .redes-sociales a:active {
+  transform: scale(0.97);
+}
+
