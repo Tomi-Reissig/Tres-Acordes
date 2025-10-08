@@ -236,3 +236,9 @@ footer .redes-sociales a:active {
 footer .redes-sociales img {
   opacity: 0.9;
 }
+
+input[type="text"],
+input[type="email"],
+textarea {
+  transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
