@@ -206,3 +206,7 @@ footer h2 {
   opacity: 0.9;
 }
 
+nav ul li a img,
+footer .redes-sociales img {
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
