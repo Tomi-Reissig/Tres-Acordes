@@ -232,3 +232,7 @@ nav ul li a:active,
 footer .redes-sociales a:active {
   transform: scale(0.90);
 }
+
+footer .redes-sociales img {
+  opacity: 0.9;
+}
