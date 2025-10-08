@@ -216,3 +216,9 @@ footer .redes-sociales img:hover {
   transform: translateY(-4px);
   opacity: 0.9;
 }
+
+nav ul li a,
+footer .redes-sociales a {
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
