@@ -222,3 +222,8 @@ footer .redes-sociales a {
   transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
+nav ul li a:hover,
+footer .redes-sociales a:hover {
+  box-shadow: 0 0 15px #fffb00;
+  transform: scale(1.03);
+}
