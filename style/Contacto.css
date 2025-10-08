@@ -210,3 +210,9 @@ nav ul li a img,
 footer .redes-sociales img {
   transition: opacity 0.5s ease, transform 0.5s ease;
 }
+
+nav ul li a img:hover,
+footer .redes-sociales img:hover {
+  transform: translateY(-4px);
+  opacity: 0.9;
+}
