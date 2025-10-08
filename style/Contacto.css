@@ -239,6 +239,16 @@ footer .redes-sociales img {
 
 input[type="text"],
 input[type="email"],
+input[type="tel"],
 textarea {
   transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+textarea:focus {
+  border-color: #fffb00;
+  box-shadow: 0 0 10px #fffb00;
+  transform: scale(1.02);
 }
