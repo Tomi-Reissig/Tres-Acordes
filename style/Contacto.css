@@ -200,3 +200,9 @@ footer h2 {
 .boton {
   transition: transform 0.4s ease, opacity 0.4s ease, background-color 0.3s ease, color 0.3s ease;
 }
+
+.boton:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
