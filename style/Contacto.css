@@ -252,3 +252,11 @@ textarea:focus {
   box-shadow: 0 0 10px #fffb00;
   transform: scale(1.02);
 }
+
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="tel"]:hover,
+textarea:hover {
+  border-color: #ccc;
+  transform: scale(1.01);
+}
