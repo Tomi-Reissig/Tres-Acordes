@@ -213,7 +213,7 @@ footer .redes-sociales img {
 
 nav ul li a img:hover,
 footer .redes-sociales img:hover {
-  transform: translateY(-4px);
+  transform: translateY(-3px);
   opacity: 0.9;
 }
 
@@ -232,4 +232,3 @@ nav ul li a:active,
 footer .redes-sociales a:active {
   transform: scale(0.90);
 }
-
