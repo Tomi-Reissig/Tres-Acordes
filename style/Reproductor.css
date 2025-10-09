@@ -136,7 +136,7 @@ footer {
 }
 
 .footer-section p, .footer-section a {
-    color: #bbb;
+    color: #eee; 
     text-decoration: none;
 }
 
@@ -203,7 +203,7 @@ footer {
 .btn:hover, nav ul li a:hover {
     background: var(--accent-dark);
     color: #fff;
-    transform: translateY(-2px) scale(1.08);
+    transform: translateY(-2px) scale(1.04);
 }
 
 nav ul li a img, nav .logo img {
