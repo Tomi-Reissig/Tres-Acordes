@@ -17,8 +17,6 @@ color: #fff;
 display:flex;
 justify-content:center;
 padding:2rem;
-font-size: 18px;
-transition: background 0.5s; 
 }
 .site{
 width:100%;
@@ -149,7 +147,7 @@ footer {
 /* Redes sociales */
 .social-icons {
     display: flex;
-    gap: 10px;
+    gap: 18px;
 }
 
 .social-icons a i{
