@@ -169,6 +169,9 @@ footer {
 }
 .btn{padding:.4rem .8rem;border-radius:var(--radius);border:none;cursor:pointer;font-weight:600;margin-left:.5rem}
 
+/* --- Animaciones y efectos visuales básicos --- */
+
+/* Animación de entrada suave */
 .animar {
     opacity: 0;
     transform: translateY(30px);
@@ -179,5 +182,13 @@ footer {
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+.mostrar {
+    opacity: 0;
+    transition: opacity 0.6s;
+}
+.mostrar.visible {
+    opacity: 1;
 }
 
