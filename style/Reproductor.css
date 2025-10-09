@@ -17,6 +17,7 @@ color: #fff;
 display:flex;
 justify-content:center;
 padding:2rem;
+font-size: 18px; 
 }
 .site{
 width:100%;
