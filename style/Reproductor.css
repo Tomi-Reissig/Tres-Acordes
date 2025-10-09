@@ -17,6 +17,8 @@ color: #fff;
 display:flex;
 justify-content:center;
 padding:2rem;
+font-size: 18px;
+transition: background 0.5s; 
 }
 .site{
 width:100%;
@@ -220,20 +222,4 @@ nav ul li a img:hover, nav .logo img:hover {
 .card:hover {
     opacity: 0.95;
     transform: translateY(-8px) scale(1.02);
-}
-
-@media (max-width: 600px) {
-    .site {
-        padding: 0.5rem;
-    }
-    nav {
-        flex-direction: column;
-        gap: 0.5rem;
-    }
-    .footer-container {
-        grid-template-columns: 1fr;
-    }
-    .card iframe {
-        height: 200px;
-    }
 }
