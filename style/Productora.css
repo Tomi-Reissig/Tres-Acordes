@@ -103,6 +103,44 @@ nav ul a li:hover{
     color: white;
 }
 
+@property --a {
+  syntax: "<angle>"; /* indica el tipo del valor de la variable */
+  inherits: false; /* Hace que los elementos hijos no hereden la propiedad */
+  initial-value: 0deg; /* valor inicial de la varible */
+}
+
+@keyframes rotacionNeon {
+  0%   { --a: 0deg; }       
+  100% { --a: 360deg; }    /* la animacion pasa de 0 a 360 */     
+}
+
+.btn{
+    position: relative;
+    z-index: 0;
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  inset: -1px; /* genera borde externo al boton */
+  border-radius: 10px;
+  background: repeating-conic-gradient(
+    from var(--a), /* indica desde donde empieza a girar gracias a la animacion de rotacionNeon */
+    #ffee00 0%,
+    #ffee00 10%, /*dice que de 0% al 10% del recorrido haya una linea amarilla */
+    transparent 10%,
+    transparent 50% /* dice que del 10% al 50% del recorrido este transparente */
+  );
+  z-index: -2;
+  opacity: 0; /* invisible al inicio */
+  transition: opacity 0.3s ease; /* hace que cambie mas suavemente la opacidad  */
+}
+    
+.btn:hover::before {
+  opacity: 1; /* aparece el borde */
+  animation: rotacionNeon 2s linear infinite; /* ejecuta la animación de rotacionNeon siempre a la misma velocidad y de forma infinita */
+}
+
 h2{
     font-size: 40px;
 }
