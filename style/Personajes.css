@@ -305,6 +305,25 @@ header{
     object-fit: cover;
     border:  5px solid black;
     transition: transform 0.3s ease;
+            background: repeating-conic-gradient(
+    from var(--a),
+    #d9ff00 0%,
+    #62ff00 5%,
+    transparent 5%,
+    transparent 40%,
+  );
+  filter: drop-shadow(0 15px 50px #04c337);
+   border-radius: 50%;
+  animation: rotating 4s linear infinite; 
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+
+}
+@keyframes rotating {
+  0%   { --a: 0deg; }
+  100% { --a: 360deg; }
 }
 .circulo_Fatima:hover{
     transform: scale(1.3);
