@@ -176,3 +176,7 @@
   .resaltar {
     transition: box-shadow 0.3s ease;
   }
+
+  .resaltar:hover {
+    box-shadow: 0px 0px 15px rgba(255, 255, 0, 0.8);
+  }
