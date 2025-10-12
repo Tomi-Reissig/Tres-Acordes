@@ -60,6 +60,7 @@
       background-color: #fffb00;
       padding: 20px 30px;
       border-radius: 100px;
+      transition: box-shadow 0.3s ease;
 
     }
 
@@ -76,7 +77,8 @@
     }
 
     nav ul li a:hover {
-      color: #c19a00;
+      color: #131313;
+      box-shadow: 0px 0px 15px rgba(255, 255, 0, 0.8);
     }
 
     .contenido {
@@ -117,6 +119,11 @@
       padding: 30px;
       border-radius: 50px;
       box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+      transition: all 0.4s ease;
+    }
+    .contenido img:hover {
+      transform: scale(1.05);
+      box-shadow: 0px 8px 18px rgba(0,0,0,0.4);
     }
 
     footer {
@@ -171,4 +178,12 @@
     padding-top: 15px;
     font-size: 12.8px;
     color: #777;
+  }
+
+  .resaltar {
+    transition: box-shadow 0.3s ease;
+  }
+
+  .resaltar:hover {
+    box-shadow: 0px 0px 15px rgba(255, 255, 0, 0.8);
   }
