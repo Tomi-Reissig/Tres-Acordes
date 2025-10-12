@@ -9,3 +9,12 @@ de estos mismos o añadiendoles una descripción. Se habla sobre Personajes Prin
 ver el Capitulo desde la misma página o Redireccionarte hacia Youtube.
 
 Muchas gracias por leer :D.
+
+Autores de la página:
+-Reissig Tomás.
+-Luciano Matteo.
+-Thiago Kenny.
+-Elias Martinez.
+-Ulises Marquez.
+
+Link de la página: https://tomi-reissig.github.io/Tres-Acordes/
