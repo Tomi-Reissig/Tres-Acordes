@@ -18,11 +18,12 @@ header {
     display: flex;
     align-items: center; 
     position: relative;
+    justify-content: space-between;
     padding: 10px;
     margin-left: 10px;
 }
 
-.logo {
+.logo, .informacion{
     font-size: 20px;
     display: flex;
     align-items: center;
@@ -40,8 +41,13 @@ header {
     border-radius: 100px; 
 }
 
-.logo span{
+.logo span, .informacion p{
     color: var(--btn-color2);
+}
+
+.informacion{
+    justify-content: center;
+    height: 50px;
 }
 
 a{
