@@ -23,7 +23,7 @@ header {
     margin-left: 10px;
 }
 
-.logo, .informacion{
+.logo{
     font-size: 20px;
     display: flex;
     align-items: center;
@@ -41,13 +41,8 @@ header {
     border-radius: 100px; 
 }
 
-.logo span, .informacion p{
+.logo span{
     color: var(--btn-color2);
-}
-
-.informacion{
-    justify-content: center;
-    height: 50px;
 }
 
 a{
@@ -190,7 +185,7 @@ h2{
     border-radius: 15px;
 }
 
-.obra p{
+.obra .contenido{
     color: var(--btn-color2);
     -webkit-text-stroke-width: 1px; /* ancho de borde */
     -webkit-text-stroke-color: var(--btn-color); /* Color de borde */
@@ -201,14 +196,130 @@ h2{
     flex: 1; /* hace que los elementos ocupen el espacio restante hacia la derecha */
 }
 
-#imagenes {
+.info_obras{
+    position: relative;  
+    padding-bottom: 60px;
+}
+
+.body-bloqueado {
+    overflow: hidden;
+}
+
+.boton-magico{
+    display: inline-flex;
+    align-items: center;           
+    justify-content: center;       
+    height: 40px;
+    width: 170px;
+    font-size: 19px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #fffb00;
+    color: rgb(0, 0, 0);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.boton-magico:hover{
+    box-shadow: 0px 0px 15px rgba(255, 255, 0, 0.8);
+    transform: scale(1.05);
+}
+
+.zona-boton{
+    text-align: center;
+    margin: 20px ;
+    font-weight: bold; 
+    position: absolute;
+    left: 50%;
+    bottom: 10px;         
+    transform: translateX(-50%);
+}
+
+.boton-alerta {
+    display: none;
+    position: fixed;  
+    top: 0;
+    left: 0;
+    width: 100vw;      /* ancho total del viewport */
+    height: 100vh;     /* alto total del viewport */
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido-alerta{
+    background-color: #222;
+    margin: 130px auto; 
+    padding: 30px;
+    border: 1px solid #202020;
+    width: 95%;
+    max-width: 800px;
+    border-radius: 10px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.contenido-alerta h2{
+    margin-bottom: 40px;
+    color: #fffb02; 
+}
+
+.contenido-alerta p{
+    font-weight: bold;
+    color: #fffc46;
+}
+
+.contenido-alerta a{
+    font-size: 20px;
+    border: 2px dashed white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.contenido-alerta a:hover{
+    background-color: #fffb02;
+    border: 2px dashed black;
+    color: black;
+}
+
+.contenido-alerta:hover{
+    box-shadow: 0px 0px 15px rgba(255, 255, 0, 0.8);
+    transform: scale(1.05);
+}
+
+.cerrar-alerta{
+    color: #111;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 1; 
+}
+
+.cerrar-alerta:hover, .cerrar-modal:focus{
+    color: red;
+    text-decoration: none;
+}
+
+.mostrar-alerta{
+    display: block; 
+}
+
+.efecto-js{
+    border: 5px solid red;
+    box-shadow: 0 0 20px 5px rgba(255, 0, 0, 0.7);
+    transform: rotate(2deg) scale(1.02);
+}
+
+#imagenes{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 25px;
     padding: 20px;
 }
 
-#imagenes .imagen {
+#imagenes .imagen{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -220,7 +331,7 @@ h2{
     min-height: 325px;
 }
 
-#imagenes .imagen:hover {
+#imagenes .imagen:hover{
   transform: scale(1.03); 
   box-shadow: 0px 6px 20px rgba(0,0,0,1); 
 }
@@ -229,7 +340,7 @@ h2{
     position: relative;
 }
 
-#imagenes img {
+#imagenes img{
     width: 100%;
     height: 275px;
     object-fit: cover; /* recorta las imagenes sin deformar */
@@ -237,7 +348,7 @@ h2{
     border-radius: 10px;
 }
 
-#imagenes .imagen p {
+#imagenes .imagen p{
     position: absolute;
     bottom: 0;
     left: 0;
@@ -254,41 +365,41 @@ h2{
 
 }
 
-#imagenes .imagen:hover p {
+#imagenes .imagen:hover p{
     opacity: 1;
 }
 
-footer {
+footer{
     background-color: #111;
     color: #fff;
     padding: 15px 15px 15px;
     font-size: 14.4px;
 }
 
-.footer-container {
+.footer-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /*definir el número y el ancho de las columnas en un diseño de cuadrícula*/
     gap: 30px;
     margin-bottom: 20px;
 }
 
-.footer-section h3 {
+.footer-section h3{
     margin-bottom: 10px;
     font-size: 19.2px;
     color: #fffb00;
 }
 
-.footer-section p, .footer-section a {
+.footer-section p, .footer-section a{
     color: #bbb;
     text-decoration: none;
 }
 
-.footer-section a:hover {
+.footer-section a:hover{
     color: #fffb00;
 }
 
 /* Redes sociales */
-.social-icons {
+.social-icons{
     display: flex;
     gap: 10px;
 }
