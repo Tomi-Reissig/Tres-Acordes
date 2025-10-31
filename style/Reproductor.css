@@ -344,3 +344,43 @@ h2{
     text-align: center;
     padding-bottom: 50px;
 }
+
+.contenido-alerta{
+    background-color: #222;
+    margin: 130px auto; 
+    padding: 30px;
+    border: 1px solid #202020;
+    width: 95%;
+    max-width: 800px;
+    border-radius: 10px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.contenido-alerta h2{
+    margin-bottom: 40px;
+    color: #fffb02; 
+}
+
+.contenido-alerta p{
+    font-weight: bold;
+    color: #fffc46;
+}
+
+.contenido-alerta a{
+    font-size: 20px;
+    border: 2px dashed white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.contenido-alerta a:hover{
+    background-color: #fffb02;
+    border: 2px dashed black;
+    color: black;
+}
+
+.contenido-alerta:hover{
+    box-shadow: 0px 0px 15px rgba(255, 255, 0, 0.8);
+    transform: scale(1.05);
+}
