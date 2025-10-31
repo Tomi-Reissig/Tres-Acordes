@@ -384,3 +384,17 @@ h2{
     box-shadow: 0px 0px 15px rgba(255, 255, 0, 0.8);
     transform: scale(1.05);
 }
+
+.cerrar-alerta{
+    color: #111;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 1; 
+}
+
+.cerrar-alerta:hover, .cerrar-modal:focus{
+    color: red;
+    text-decoration: none;
+}
