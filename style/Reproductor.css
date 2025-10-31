@@ -221,3 +221,71 @@ nav ul li a img:hover, nav .logo img:hover {
     opacity: 0.95;
     transform: translateY(-8px) scale(1.02);
 }
+
+.btn:hover::before {
+  opacity: 1; /* aparece el borde */
+  animation: rotacionNeon 2s linear infinite; /* ejecuta la animación de rotacionNeon siempre a la misma velocidad y de forma infinita */
+}
+
+h2{
+    font-size: 40px;
+}
+
+#obras h2, #galeria h2{
+    text-align: center;
+}
+
+#biografia{
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+
+#biografia img{
+    width: 300px;
+    float: left; /* hace que el texto rodee la imagen */
+    border: 1px solid var(--btn-color);
+    margin: 0 20px 8px 5px;
+    border-radius: 10px;
+}
+
+#biografia p{
+    margin-left: 20px;
+    margin-right: 40px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.obra{
+    background-color: var(--btn-color2); 
+    border-radius: 15px;
+    border: 2px solid var(--btn-color);
+    margin: 20px;
+    padding: 15px;
+    display: flex;
+}
+
+.obra img{
+    margin-right: 20px;
+    border-radius: 15px;
+}
+
+.obra .contenido{
+    color: var(--btn-color2);
+    -webkit-text-stroke-width: 1px; /* ancho de borde */
+    -webkit-text-stroke-color: var(--btn-color); /* Color de borde */
+    font-size: 20px;
+}
+
+.obra div{
+    flex: 1; /* hace que los elementos ocupen el espacio restante hacia la derecha */
+}
+
+.info_obras{
+    position: relative;  
+    padding-bottom: 60px;
+}
+
+.body-bloqueado {
+    overflow: hidden;
+}
