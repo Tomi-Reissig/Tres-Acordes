@@ -289,3 +289,33 @@ h2{
 .body-bloqueado {
     overflow: hidden;
 }
+
+.boton-magico{
+    display: inline-flex;
+    align-items: center;           
+    justify-content: center;       
+    height: 40px;
+    width: 170px;
+    font-size: 19px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #fffb00;
+    color: rgb(0, 0, 0);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.boton-magico:hover{
+    box-shadow: 0px 0px 15px rgba(255, 255, 0, 0.8);
+    transform: scale(1.05);
+}
+
+.zona-boton{
+    text-align: center;
+    margin: 20px ;
+    font-weight: bold; 
+    position: absolute;
+    left: 50%;
+    bottom: 10px;         
+    transform: translateX(-50%);
+}
