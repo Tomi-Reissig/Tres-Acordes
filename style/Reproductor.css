@@ -319,3 +319,28 @@ h2{
     bottom: 10px;         
     transform: translateX(-50%);
 }
+
+.boton-alerta {
+    display: none;
+    position: fixed;  
+    top: 0;
+    left: 0;
+    width: 100vw;      /* ancho total del viewport */
+    height: 100vh;     /* alto total del viewport */
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido-alerta{
+    background-color: #222;
+    margin: 130px auto; 
+    padding: 30px;
+    border: 1px solid #202020;
+    width: 95%;
+    max-width: 800px;
+    border-radius: 10px;
+    text-align: center;
+    padding-bottom: 50px;
+}
