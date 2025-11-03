@@ -212,3 +212,15 @@
     background-color: rgba(0, 0, 0, 0.8);
   }
 
+  .contenido-alerta {
+    background-color: #222;
+    margin: 130px auto;
+    padding: 30px;
+    border: 1px solid #202020;
+    width: 95%;
+    max-width: 800px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+
