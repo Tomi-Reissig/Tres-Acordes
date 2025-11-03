@@ -250,3 +250,7 @@
     color: red;
     text-decoration: none;
   }
+
+  .mostrar-alerta {
+    display: block;
+  }
