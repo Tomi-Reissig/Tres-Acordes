@@ -223,4 +223,9 @@
     text-align: center;
   }
 
+  .contenido-alerta h2 {
+    margin-bottom: 15px;
+    color: #fffb02;
+  }
+
 
