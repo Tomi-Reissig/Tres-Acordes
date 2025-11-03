@@ -245,3 +245,8 @@
     line-height: 1;
   }
 
+  .cerrar-alerta:hover,
+  .cerrar-alerta:focus {
+    color: red;
+    text-decoration: none;
+  }
