@@ -74,7 +74,7 @@
     <div class="contenido-alerta resaltar">
         <span class="cerrar-alerta">&times;</span>
         <h2>¡Baila la Mona!</h2>
-        <img src="Images/GIF_ADRIEL_LA_MONA.gif" alt="Gif Sorpresa Tres Acordes">
+        <img src="Imagenes/GIF_ADRIEL_LA_MONA.gif" alt="Gif Sorpresa Tres Acordes">
     </div>
   </div>
 
@@ -106,5 +106,61 @@
       <p>© 2025 Tres Acordes - Todos los derechos reservados</p>
     </div>
   </footer>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+
+    const elBotonMagico = document.querySelector('.boton-magico');
+    const laAlerta = document.querySelector('.boton-alerta');
+    const elBotonCerrar = document.querySelector('.cerrar-alerta');
+
+    const mostrarAlerta = (event) => {
+        if (event.type === 'contextmenu') {
+            event.preventDefault();
+        }
+        laAlerta.classList.add('mostrar-alerta');
+    };
+
+    const ocultarAlerta = () => {
+        laAlerta.classList.remove('mostrar-alerta');
+    };
+
+    elBotonMagico.addEventListener('click', mostrarAlerta);
+    elBotonMagico.addEventListener('contextmenu', mostrarAlerta);
+    elBotonCerrar.addEventListener('click', ocultarAlerta);
+
+    window.addEventListener('click', (event) => {
+
+        if (event.target === laAlerta) {
+            ocultarAlerta();
+        }
+
+    });
+
+    const imagenEnAlerta = document.querySelector('.contenido-alerta img');
+    
+    if (imagenEnAlerta) {
+        imagenEnAlerta.addEventListener('dblclick', () => {
+
+            imagenEnAlerta.classList.toggle('efecto-js'); 
+            console.log('Clase "efecto-js" alternada.');
+
+        });
+    }
+
+    const logoSpan = document.querySelector('.logo span');
+    if (logoSpan) {
+        logoSpan.addEventListener('mouseenter', (event) => {
+            event.target.style.color = '#131313';
+        });
+        logoSpan.addEventListener('mouseleave', (event) => {
+            event.target.style.color = 'rgb(0, 0, 0)';
+        });
+    }
+
+});
+
+</script>
+
 </body>
 </html>
