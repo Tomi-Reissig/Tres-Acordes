@@ -181,7 +181,13 @@
   }
 
   .resaltar {
-    transition: box-shadow 0.3s ease;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 50px;
+    background-color: #fffb00;
+    color: rgb(0, 0, 0);
+    transition: background-color 0.3s ease, transform 0.3s ease;
   }
 
   .resaltar:hover {
